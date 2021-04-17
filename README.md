@@ -64,9 +64,22 @@ Here are the steps I used.
 
 # after build you will get something like this
 ```
-
 ![install image](./figures/Screenshot2.png)
 
+### 8. To find C/C++ compiler extensions
+Before launching VScode, open `product.json` using
+```bash
+~$ cd vscode
+~$ geany product.json
+```
+To find the suitable extensions from the Visual Studio Marketplace, add the following lines to  `product.json`. 
+```
+"extensionsGallery": {
+    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+    "itemUrl": "https://marketplace.visualstudio.com/items"
+},
+```
 ### 8. Launch VScode and voila!
 
 ```bash
