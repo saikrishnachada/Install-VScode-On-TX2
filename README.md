@@ -69,7 +69,6 @@ Here are the steps I used.
 ### 8. To find C/C++ compiler extensions
 Before launching VScode, open `product.json` using
 ```bash
-~$ cd vscode
 ~$ geany product.json
 ```
 To find the suitable extensions from the Visual Studio Marketplace, add the following lines to  `product.json`. 
@@ -80,7 +79,7 @@ To find the suitable extensions from the Visual Studio Marketplace, add the foll
     "itemUrl": "https://marketplace.visualstudio.com/items"
 },
 ```
-### 8. Launch VScode and voila!
+### 9. Launch VScode and voila!
 
 ```bash
 ~$ ./scripts/code.sh
