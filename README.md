@@ -1,6 +1,9 @@
 
 # Install VScode on Nvidia TX2
 
+Installation video can be viewed here:
+https://www.youtube.com/watch?v=Onipv1pWep4&t=4s
+
 VScode is a nice IDE for developers. It is widely used and has many features.
 Even so, I struggled trying to install it, using many different solutions found in the internet.
 
